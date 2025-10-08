@@ -1,0 +1,177 @@
+body{
+    margin:   0;
+}
+h1{
+    font-size: 70px;
+    color: gold;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+}
+a , p , h1 , h2 , h3 , button{
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+
+
+
+.logo{
+    color: gold;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 80;
+}
+header > div > nav > a{
+    text-decoration: none;
+    font-size: 18;
+    font-weight: 400;
+    color: yellow;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
+header > div > nav > a:hover{
+    color: green
+}
+
+.header-cont{
+    width:80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.sec1{
+    width: 100%;
+    background-image: url("../images/full.png");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+}
+.sec1 > p{
+    font-size: 18px;
+    color: gold;
+    font-weight: 300;
+    margin-bottom: 50px;
+
+}
+button{
+    background-color: black;
+    font-size: 30px;
+    font-weight: 500;
+    color: gold;
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid gold; 
+}
+.sec2{
+    background-color: black;
+}
+h2{
+    font-size: 30px;
+    color: gold;
+    font-weight: 800;
+    margin-top: 0;
+}
+.right-content{
+    font-size: 18;
+    font-weight: 300;
+    color: yellow;
+    line-height: 20px;
+}
+.left-content{
+    border-radius: 20px;
+}
+footer > .header-cont{
+    height: 300px;
+}
+footer{
+    background-color: black;
+    border-top: 2px solid gold;
+}
+.desc > p{
+    font-size: 18px;
+    font-weight: 500;
+    color: gold;
+    width: 60%;
+}
+footer > div > nav > a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: yellow;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+    line-height: 50px;
+}
+footer > div > nav > a:hover{
+    color: green
+}
+footer > div > nav{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.sec3{
+    width: 100%;
+    background-color: black;
+}
+.sec3-cont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card-info > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.card-info{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+}
+.card{
+    width: 25%;
+    background-color: gold;
+    padding: 2.5%;
+    border-radius: 20px;
+}
+.name{
+    font-size: 20px;
+    margin: 0;
+    color: black;
+    font-weight: 700;
+}
+.review{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    line-height: 30px;
+}
+.stars{
+    font-size: 30;
+    margin: 0;
+    color: green;
+    letter-spacing: 5px;
+}
