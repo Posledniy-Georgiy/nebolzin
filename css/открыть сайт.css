@@ -8,7 +8,7 @@ h1{
     letter-spacing: 2px;
     margin: 0;
 }
-a , p , h1 , h2 , h3 , button{
+a , p , h1 , h2 , h3 , h4, button{
      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -174,4 +174,33 @@ footer > div > nav{
     margin: 0;
     color: green;
     letter-spacing: 5px;
+}
+.sec4{
+    width: 100%;
+    background-color: black;
+    padding: 100px 0;
+}
+.shop-cont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop-card{
+    width: 16%;
+    padding: 30px;
+    background-color: gold;
+    border-radius: 10px;
+}
+.shop-card > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.shop-card > h4{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 800;
+    text-transform: uppercase;
 }

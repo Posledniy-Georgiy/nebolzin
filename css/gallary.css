@@ -1,0 +1,89 @@
+.sec1{
+    width: 100%;
+    background-color: black;
+    padding: 100px 0;
+}
+.shop-cont1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop-card{
+    width: 16%;
+    padding: 30px;
+
+    border-radius: 10px;
+}
+.shop-card > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.shop-card > h4{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.shop-cont {
+    display: flex;
+    flex-direction: column;
+}
+.shop-cont1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop-cont2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.shop-cont3{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.shop-cont4{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.shop-cont5{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+button{
+    background-color: blue;
+    font-size: 30px;
+    font-weight: 500;
+    color: gold;
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.sec1{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
