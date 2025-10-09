@@ -185,7 +185,6 @@ footer > div > nav{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .shop-card{
     width: 16%;
@@ -196,6 +195,8 @@ footer > div > nav{
 .shop-card > img{
     width: 100%;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .shop-card > h4{
     font-size: 20px;
