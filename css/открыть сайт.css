@@ -8,7 +8,7 @@ h1{
     letter-spacing: 2px;
     margin: 0;
 }
-a , p , h1 , h2 , h3 , h4, button{
+a , p , h1 , h2 , h3 , h4, button, input{
      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -204,4 +204,22 @@ footer > div > nav{
     margin-bottom: 0;
     font-weight: 800;
     text-transform: uppercase;
+}
+.auth{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.auth > .fa-user{
+    color: gold;
+    font-size: 18px;
+}
+.auth > a{
+    text-decoration: none;
+    color: gold;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.auth > a:hover{
+    color: green;
 }
