@@ -11,12 +11,6 @@ h1{
 a , p , h1 , h2 , h3 , h4, button, input{
      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
-
-
-
-
-
 .logo{
     color: gold;
     text-decoration: none;
@@ -54,7 +48,7 @@ header > div > nav > a:hover{
 .sec1{
     width: 100%;
     background-image: url("../images/full.png");
-    height: 90vh;
+    height: 92vh;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -221,5 +215,23 @@ footer > div > nav{
     transition: all 0.3s ease;
 }
 .auth > a:hover{
+    color: green;
+}
+.reg{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.reg > .fa-user{
+    color: gold;
+    font-size: 18px;
+}
+.reg > a{
+    text-decoration: none;
+    color: gold;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}   
+.reg > a:hover{
     color: green;
 }

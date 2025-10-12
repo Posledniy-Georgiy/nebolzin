@@ -1,4 +1,4 @@
-.sec-login{
+.sec-reg{
     width: 100%;
     height: 96.25vh;
     background-image: url("../images/full.png");
@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
 }
-.login-form{
+.reg-form{
     background-color: rgba(0, 128, 0, 0.595);
     backdrop-filter: blur(10px);
     border-radius: 13px;
@@ -18,6 +18,7 @@
     padding: 30px;
     gap: 20px;
     width: 18%;
+
 }
 h3{
     color: gold;
@@ -41,16 +42,16 @@ input::placeholder{
     color: white;
 }
 form > a{
-    color: white;
+    color: gold;
     text-decoration: none;
     margin: 0 auto;
     transition: all 0.3s ease;
     border-bottom: 1px solid transparent;
 }
 form > a:hover{
-    color: green;
+    color: white;
 }
-.login-form > button:hover{
+.reg-form > button:hover{
     background-color: transparent;
     box-shadow: 0 0 10px gold;
 }
