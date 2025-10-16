@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>reg</title>
+    <title>login</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/открыть сайт.css">
-    <link rel="stylesheet" href="css/reg.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/login.css">
     <script src="https://kit.fontawesome.com/7c54256117.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="header-cont">
-                <a href="открыть сайт.html" class="logo">minecraft</a>
-                <nav>
-                    <a href="about.html">about</a>
-                    <a href="help.html">help</a>
-                    <a href="gallery.html">gallery</a>
-                </nav>
+            <a href="home.html" class="logo">minecraft</a>
+            <nav>
+                <a href="about.html">about</a>
+                <a href="help.html">help</a>
+                <a href="gallery.html">gallery</a>
+            </nav>
             <div class="auth">
                 <i class="fa-solid fa-user"></i>
                 <a href="login.html">вход</a>
@@ -30,16 +30,16 @@
             </div>
         </div>
     </header>
-</body>
-    <main> 
-        <section class="sec-reg">
-            <form class="reg-form">
-                <h3>регистрация</h3>
-                <input type="text" class="email" placeholder="Введите почту" required>
+    <main>
+        <section class="sec-login">
+            <form class="login-form">
+                <h3>вход</h3>
+                <input type="text" class="nickname" placeholder="Введите логин" required>
                 <input type="password" class="password" placeholder="Введите пароль" required>
-                <button>зарегаться</button>
-                <a href="login.html">есть аккаунт?</a>
+                <button>Войти</button>
+                <a href="reg.html">Ещё не зареган?</a>
             </form>
         </section>
     </main>
+</body>
 </html>
