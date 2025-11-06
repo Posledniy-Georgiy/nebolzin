@@ -18,8 +18,7 @@ main > .left{
     width: 100%;
     height: 40%;
     display: flex;
-    border-radius: 20px;
-    /* padding: 8px 25px; */
+    border-radius: 10px;    
     background-size: cover;
     background-position: bottom center;
     display: flex;
@@ -31,7 +30,7 @@ main > .left{
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     margin: 0;
 }
 .trailer-card1{
@@ -43,7 +42,7 @@ main > .left{
 .blur{
     background-color: rgba(180, 180, 180, 0.22);
     backdrop-filter: blur(10px);
-    padding: 5%;
+    padding: 2%;
 }
 .blur > h3{
     color: white;
