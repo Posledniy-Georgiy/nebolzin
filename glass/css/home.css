@@ -1,25 +1,59 @@
 main > .left{
     width: 27%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.017);
-    backdrop-filter: blur(2px);
-    border: 1px solid rgba(255, 255, 255, 0.36);
-    box-shadow: 0 0 6px rgba(255, 255, 255, 0.25);
-    border-radius: 20px;
     margin: 17px 0px;
 }
-.trailers > img{
+.trailers{
+    background-color: rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
     width: 90%;
+    height: 60%;
+    justify-content: space-between;
+}
+.trailers > .trailer-card1, .trailer-card2{
+    width: 100%;
+    height: 40%;
     display: flex;
-    border-radius: 50px;
-    padding: 8px 25px;
+    border-radius: 20px;
+    /* padding: 8px 25px; */
+    background-size: cover;
+    background-position: bottom center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
 }
 .trailers > h3{
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+}
+.trailer-card1{
+    background-image: url(../images/pidr_parker1.png);
+}
+.trailer-card2{
+    background-image: url(../images/pidr_parker2.png);
+}
+.blur{
+    background-color: rgba(180, 180, 180, 0.22);
+    backdrop-filter: blur(10px);
+    padding: 5%;
+}
+.blur > h3{
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+.blur > p{
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 5px;
+    font-weight: 200;
 }
